@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC341E28284E4A3F007F56DB /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC341E27284E4A3F007F56DB /* CircleButtonAnimationView.swift */; };
+		DC341E2B284E5071007F56DB /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC341E2A284E5071007F56DB /* CoinModel.swift */; };
 		DCCEA943283E3971005B5787 /* iCryptoApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEA942283E3971005B5787 /* iCryptoApp.swift */; };
 		DCCEA945283E3971005B5787 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DCCEA944283E3971005B5787 /* ContentView.swift */; };
 		DCCEA94A283E3972005B5787 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DCCEA949283E3972005B5787 /* Preview Assets.xcassets */; };
@@ -17,6 +19,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC341E27284E4A3F007F56DB /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
+		DC341E2A284E5071007F56DB /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		DCCEA93F283E3971005B5787 /* iCrypto.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iCrypto.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DCCEA942283E3971005B5787 /* iCryptoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = iCryptoApp.swift; sourceTree = "<group>"; };
 		DCCEA944283E3971005B5787 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -38,6 +42,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		DC341E29284E4F31007F56DB /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC341E2A284E5071007F56DB /* CoinModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		DCCEA936283E3971005B5787 = {
 			isa = PBXGroup;
 			children = (
@@ -59,6 +71,7 @@
 			children = (
 				DCCEA942283E3971005B5787 /* iCryptoApp.swift */,
 				DCCEA944283E3971005B5787 /* ContentView.swift */,
+				DC341E29284E4F31007F56DB /* Models */,
 				DCCEA96E283E4486005B5787 /* Core */,
 				DCCEA95C283E3E19005B5787 /* Extension */,
 				DCCEA950283E3A52005B5787 /* Assets.xcassets */,
@@ -128,6 +141,7 @@
 			isa = PBXGroup;
 			children = (
 				DCCEA976283E4989005B5787 /* CircleButtonView.swift */,
+				DC341E27284E4A3F007F56DB /* CircleButtonAnimationView.swift */,
 			);
 			path = CircleButton;
 			sourceTree = "<group>";
@@ -207,6 +221,8 @@
 				DCCEA977283E4989005B5787 /* CircleButtonView.swift in Sources */,
 				DCCEA96D283E3E19005B5787 /* Color.swift in Sources */,
 				DCCEA943283E3971005B5787 /* iCryptoApp.swift in Sources */,
+				DC341E28284E4A3F007F56DB /* CircleButtonAnimationView.swift in Sources */,
+				DC341E2B284E5071007F56DB /* CoinModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -264,7 +280,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -319,7 +335,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
