@@ -8,6 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		DC2F6816284FBC35004B8CA3 /* Double.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6815284FBC35004B8CA3 /* Double.swift */; };
+		DC2F6818284FC9FF004B8CA3 /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC2F6817284FC9FF004B8CA3 /* HomeViewModel.swift */; };
 		DC341E28284E4A3F007F56DB /* CircleButtonAnimationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC341E27284E4A3F007F56DB /* CircleButtonAnimationView.swift */; };
 		DC341E2B284E5071007F56DB /* CoinModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC341E2A284E5071007F56DB /* CoinModel.swift */; };
 		DC341E2D284E6852007F56DB /* CoinRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = DC341E2C284E6852007F56DB /* CoinRowView.swift */; };
@@ -23,6 +24,7 @@
 
 /* Begin PBXFileReference section */
 		DC2F6815284FBC35004B8CA3 /* Double.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Double.swift; sourceTree = "<group>"; };
+		DC2F6817284FC9FF004B8CA3 /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		DC341E27284E4A3F007F56DB /* CircleButtonAnimationView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CircleButtonAnimationView.swift; sourceTree = "<group>"; };
 		DC341E2A284E5071007F56DB /* CoinModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinModel.swift; sourceTree = "<group>"; };
 		DC341E2C284E6852007F56DB /* CoinRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoinRowView.swift; sourceTree = "<group>"; };
@@ -125,6 +127,7 @@
 		DCCEA970283E4498005B5787 /* ViewModel */ = {
 			isa = PBXGroup;
 			children = (
+				DC2F6817284FC9FF004B8CA3 /* HomeViewModel.swift */,
 			);
 			path = ViewModel;
 			sourceTree = "<group>";
@@ -226,6 +229,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				DC341E2D284E6852007F56DB /* CoinRowView.swift in Sources */,
+				DC2F6818284FC9FF004B8CA3 /* HomeViewModel.swift in Sources */,
 				DCCEA973283E44E9005B5787 /* HomeView.swift in Sources */,
 				DCCEA945283E3971005B5787 /* ContentView.swift in Sources */,
 				DCCEA977283E4989005B5787 /* CircleButtonView.swift in Sources */,
